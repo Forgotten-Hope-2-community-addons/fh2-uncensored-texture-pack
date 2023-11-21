@@ -2,7 +2,7 @@
 
 ## Uncensored Forgotten Hope 2 Texture Pack
 
-[![Build and release](https://github.com/AlexRuiz7/fh2_uncensored_texture_pack/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/AlexRuiz7/fh2_uncensored_texture_pack/actions/workflows/build-and-release.yml)
+[![Build and release](https://github.com/Forgotten-Hope-2-community-addons/fh2_uncensored_texture_pack/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/Forgotten-Hope-2-community-addons/fh2_uncensored_texture_pack/actions/workflows/build-and-release.yml)
 
 This is a texture pack for the [Forgotten Hope 2][website] mod for Battlefield 2. This 
 texture pack replaces some of the textures in the game with uncensored versions.
@@ -21,7 +21,7 @@ Original add-on website: https://gamebanana.com/mods/234428
 
 ### Installation
 
-1. Download the latest version of the texture pack from the [releases page](https://github.com/AlexRuiz7/fh2_uncensored_texture_pack/releases).
+1. Download the latest version of the texture pack from the [releases page](https://github.com/Forgotten-Hope-2-community-addons/fh2_uncensored_texture_pack/releases).
 
 2. Extract the package to any location.
 
