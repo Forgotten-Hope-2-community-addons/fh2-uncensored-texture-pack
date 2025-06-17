@@ -17,8 +17,8 @@ The Dockerfile contains all the requirements to run this software.
 
 Change the version accordingly.
 ```console
-    docker build -t fh2-uncensored-texture-pack:2.63 .
-    docker run -v "$(pwd)":/app fh2-uncensored-texture-pack:2.63
+docker build -t fh2-uncensored-texture-pack:2.63 .
+docker run -v "$(pwd)":/app fh2-uncensored-texture-pack:2.63
 ```
 
 To test the GitHub actions locally, you will Act:
@@ -52,14 +52,14 @@ texture pack before generating a release.
 
 
 1. Bump the version:
-```console
-bash scripts/version.sh 2.XY.Z
-```
+    ```console
+    bash scripts/version.sh 2.XY.Z
+    ```
 
 2. Create a tag:
-```console
-git tag -a v2.XY.Z -m "Release v2.XY.Z"
-git push origin v2.XY.Z
-```
+    ```console
+    git tag -a v2.XY.Z -m "Release v2.XY.Z"
+    git push origin v2.XY.Z
+    ```
 
 3. If everything goes fine, the release will be created automatically in GitHub.
