@@ -39,7 +39,7 @@ jobs:
         run: make
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: fh2_uncensored_texture_pack_${{ github.ref_name }}.zip
           path: ./dist/fh2_uncensored_texture_pack_${{ github.ref_name }}.zip
@@ -53,11 +53,11 @@ jobs:
       contents: write
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: fh2_uncensored_texture_pack_${{ github.ref_name }}.zip
       - name: Publish release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           name: Release ${{ github.ref_name }}
           generate_release_notes: true
